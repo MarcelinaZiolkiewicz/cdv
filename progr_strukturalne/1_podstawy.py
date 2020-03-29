@@ -37,7 +37,7 @@ print("Imie i nazwisko:" + name + " " + surname + ", wiek: " + age)
 print("\nNarodowość: ", end="")
 nationality = input()
 
-surnamee = "Kowalski"
+surnamee = "Kowalewski"
 firstLetter=surnamee[0]
 print(firstLetter)
 
@@ -49,3 +49,10 @@ a="10"
 print(type(a))
 a=int(a)
 print(type(a))
+
+print(surnamee[0])
+print(surnamee[0:2])
+print(surnamee[-2])
+print(surnamee[-2:])
+print(surnamee[:-2])
+print(surnamee[:-2:2])
